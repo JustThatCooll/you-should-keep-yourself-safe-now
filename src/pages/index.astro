@@ -3,6 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import kysNowImage from /'kysnow.jpg';
 ---
 
 <!doctype html>
@@ -13,6 +14,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<body>
 		<Header />
 		<main>
+		<Image src={kysNowImage} alt="You should keep yourself safe NOW!"
 			<h1>🧑‍🚀 Hello, Astronaut!</h1>
 			<p>
 				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
@@ -32,6 +34,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
 				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
 				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
+				<Image 
 			</ul>
 			<p>
 				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
