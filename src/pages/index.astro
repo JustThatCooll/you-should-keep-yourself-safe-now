@@ -3,7 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import kysNowImage from './kysnow.jpg'; 
+import kysNowImage from './kysnow.jpg'; // Adjust path if needed
 ---
 
 <!doctype html>
@@ -13,8 +13,9 @@ import kysNowImage from './kysnow.jpg';
   </head>
   <body>
     <Header />
-    <main style="display: flex; justify-content: center; align-items: center; min-height: 80vh;">
-      <img src={kysNowImage} alt="You should keep yourself safe NOW!" style="max-width: 100%; height: auto;" />
+   <main style="display: flex; justify-content: center; align-items: center; min-height: 80vh;">
+  <img src="./kysnow.jpg" alt="You should keep yourself safe NOW!" style="max-width: 100%; height: auto;" />
+</main>
     </main>
     <Footer />
   </body>
